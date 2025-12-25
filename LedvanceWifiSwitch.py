@@ -4,7 +4,7 @@ import tinytuya
 VERSION = "0.1"
 
 """
-SwitchControl.py — CLI utility for Tuya smart switches
+LedvanceWifiSwitch.py — CLI utility for Tuya smart switches
 (Tuya protocol 3.3/3.5).
 
 INSTALL REQUIREMENTS:
