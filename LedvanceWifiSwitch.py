@@ -16,7 +16,7 @@ INSTALL REQUIREMENTS:
 
 USAGE (first 3 arguments are mandatory):
     LedvanceWifiSwitch.py DEV_ID IP LOCAL_KEY [options]
-    Example: python SwitchControl.py bxxdd0xxdd2698529gse2 1.1.1.2 'your_local_key' --on
+    Example: python LedvanceWifiSwitch.py bxxdd0xxdd2698529gse2 1.1.1.2 'your_local_key' --on
 
 Options (can be combined):
   --status                       print DPS once and exit
