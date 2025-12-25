@@ -8,6 +8,7 @@ SwitchControl.py — CLI utility for Tuya smart switches
 (Tuya protocol 3.3/3.5).
 
 INSTALL REQUIREMENTS:
+    Smartlife APP (https://play.google.com/store/apps/details?id=com.tuya.smartlife&pcampaignid=web_share)
     $pip install tinytuya
     follow guide: https://github.com/jasonacox/tinytuya#setup-wizard---getting-local-keys
     $python3 -m tinytuya wizzard
@@ -25,7 +26,7 @@ Options (can be combined):
   --version                      print utility version
 
 
-CREDIT: 
+CREDIT: https://github.com/adm1nsys/Ledvence-Smart-WiFi-E27-A60-Local-Control
 """
 
 
@@ -68,7 +69,7 @@ def get_parser() -> argparse.ArgumentParser:
 # --------------- main ---------------------
 
 def main():
-    # Normalize --on/--off to lowercase for case-insensitive input
+    # Grab argv commands & Normalize --on/--off to lowercase for case-insensitive input
     for i in range(len(sys.argv)):
         if sys.argv[i].lower() in ['--on', '--off']:
             sys.argv[i] = sys.argv[i].lower()
