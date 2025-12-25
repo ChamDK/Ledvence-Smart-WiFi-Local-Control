@@ -12,7 +12,7 @@ INSTALL REQUIREMENTS:
     $pip install tinytuya
     follow guide: https://github.com/jasonacox/tinytuya#setup-wizard---getting-local-keys
     $python3 -m tinytuya wizzard
-    When you have the keys from the , you can use this utility it will work local.
+    When you have the keys from the wizzard, you can use this utility it will work local.
 
 USAGE (first 3 arguments are mandatory):
     LedvanceWifiSwitch.py DEV_ID IP LOCAL_KEY [options]
